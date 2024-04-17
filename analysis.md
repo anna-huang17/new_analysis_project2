@@ -1,8 +1,6 @@
 # Project 2 Analysis
 
-## Introduction 
-
-create an introduction(still need editing): 
+## Introduction  
 
 In this analysis, we explore the performance of two parallelized programs under varying conditions: the number of threads/processes and the size of the world. We aim to assess the speedup, efficiency, and crossover points of the programs.
 
@@ -10,8 +8,10 @@ In this analysis, we explore the performance of two parallelized programs under 
 
 * Programs: Two parallelized programs.
 * Variables: Number of threads/processes, size of the world.
-* Worlds: Large, pre-populated worlds with diverse functions.
+* Worlds: Large, pre-populated worlds.
 * Data Generation: Additional worlds created by iterating basic.txt and using the output as input for subsequent runs.
+
+![]
 
 ## Results
 ### Speedup and Efficiency
@@ -33,11 +33,3 @@ In this analysis, we explore the performance of two parallelized programs under 
 * Summary of findings, including optimal configurations and performance characteristics.
 * Recommendations for optimizing program performance based on analysis results.
 
-## Future Work
-
-* Suggestions for further experimentation or improvements.
-* Potential areas for research to enhance parallel program efficiency and scalability.
-
-## Appendix
-
-* Additional data, charts, or tables supporting the analysis.
