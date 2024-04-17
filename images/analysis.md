@@ -13,6 +13,13 @@ In this analysis, we explore the performance of two parallelized programs under 
 
 ![Distance_128_Threads_Plot](./Dist_128_threadsplot.png)
 
+![Time_vs_Threads_Shared_256](./time_vs_threads_shared_256.png)
+
+We realized that the better count of thread will have a expental speed up (inceases).
+This is becasue more threads allows for more opration to be processed reducing the overall time required for execution. However, it's important to note that this speed-up only occurs up to a point. Once the optimal number of threads for the system has been reached, adding more threads can actually decrease performance due to the overhead associated with managing and scheduling these threads.
+
+The collected data showed that with an increase of threads for the distibuted program the speed up had an exponetial increase in performance but this was not reflected in the shared program where the number of threads gave an increase in performance when going from two to eight threads but going past eight threads led to a decrease in performance. The point where the thread count seemed to be ideal for this data set when using the shared program is eight threads. 
+
 ## Results
 ### Speedup and Efficiency
 
