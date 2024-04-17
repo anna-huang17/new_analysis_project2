@@ -11,7 +11,7 @@ In this analysis, we explore the performance of two parallelized programs under 
 * Worlds: Large, pre-populated worlds.
 * Data Generation: Additional worlds created by iterating basic.txt and using the output as input for subsequent runs.
 
-![]
+![Distance_128_Threads_Plot](./images/Dist_128_threadsplot.png)
 
 ## Results
 ### Speedup and Efficiency
