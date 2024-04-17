@@ -26,17 +26,14 @@ The collected data showed that with an increase of threads for the distibuted pr
 * Speedup and efficiency graphs for different thread/process counts and world sizes.
 * Analysis of trends and optimal configurations.
 
-## Crossover Points
+![distributed_world_size_data](./distribute_world_size_data.png)
+![SpeedUp](./Speedup.png)
 
-* Identification of crossover points where programs exhibit different ranks.
-* Discussion on factors influencing crossover points, such as workload distribution and synchronization overhead.
 
 ## Impact of World Size
 * How performance varies with increasing world size.
 * Insight into scalability and resource utilization.
 
-## Conclusion
+![Distributed_and_Shared](./Distributed_and_Shared_plot_of_time_compared_to_world_size.png)
 
-* Summary of findings, including optimal configurations and performance characteristics.
-* Recommendations for optimizing program performance based on analysis results.
 
